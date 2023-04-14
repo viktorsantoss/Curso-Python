@@ -18,7 +18,7 @@
 
 
 ### Projeto 3 - Ciência de dados
-- l- ler as bases de dados do Airbnb do estado RJ entre os anos 2018 e 2020, juntando essas baes;
+- Ler as bases de dados do Airbnb do estado RJ entre os anos 2018 e 2020, juntando essas baes;
 - depois salvar em um arquivo de 1000 linhas essa base para fazer uma análise qualitativa;
 - retirar as colunas que não serão úteis para precificar o valor do imóvel;
 - tratar os valores faltante e análise do tipo de dado da coluna;
@@ -31,3 +31,8 @@
 - escolher o melhor modelo e fazer melhoria;
 - salvar o melhor modelo, ou seja, salvar em arquivo o modelo já treinado;
 - depois fazer um Deploy do modelo através do streamlit.
+
+### Controle de estoque
+- Criação de uma interface gráfica com o uso da biblioteca tkinter;
+- conexão com o banco de dados SQL através do pyodbc;
+- comando CRUD no banco de dados através dos botões da janela consumir, visualizar, adicionar e deletar insumos.
