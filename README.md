@@ -36,3 +36,11 @@
 - Criação de uma interface gráfica com o uso da biblioteca tkinter;
 - conexão com o banco de dados SQL através do pyodbc;
 - comando CRUD no banco de dados através dos botões da janela consumir, visualizar, adicionar e deletar insumos.
+
+
+### projeto de cotação de moedas
+- Criação de interface gráfica através do tkinter;
+— conexão com awesome API (api de moedas) através da biblioteca request;
+- duas opções de busca de moedas na tela;
+— primeira opção: seleciona a moeda disponível da API através da lista suspensa, bem como a data para fazer a busca da moeda;
+— segunda opção: seleciona um arquivo Excel contendo as moedas para fazer a busca. Seleciona a data inicial e final, sendo depois realizada uma consulta na APi e com os dados retornado convertido em um arquivo Excel com cada coluna referente a uma moeda.
