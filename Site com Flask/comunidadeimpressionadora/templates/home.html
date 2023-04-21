@@ -1,0 +1,40 @@
+{% extends 'base.html'%}
+
+{%block body%}
+<div class="container mt-2" style="text-align:center">
+    <h1>
+        Esse é o meu primeiro site
+    </h1>
+    <h3 style="color:red">
+
+    </h3>
+</div>
+<hr>
+<div class="container">
+    {%for uni in posts%}
+        <div class="row border mt-2 p-2" style="background-color:#D2B48C">
+            <div class="col-3">
+                <div class="image pe-2">
+                        <img src="{{url_for('static', filename='fotos_perfil/{}'.format(uni.autor.foto_perfil))}}" class="rounded" width="200" height="200">
+                </div>
+                <strong>{{uni.autor.username}}</strong>
+                <div class="row justify-content-center">
+
+                        {%for curso in uni.autor.curso.split(';')%}
+                            <button class="btn btn-primary mt-2 disabled">{{curso}}</button>
+                        {%endfor%}
+
+                </div>
+            </div>
+            <div class="col-9">
+                <a style="text-decoration:none" href="{{url_for('exibir_post', id_post=uni.id)}}">
+                    <strong>{{uni.titulo}}</strong>
+                </a>
+
+                <p>{{uni.corpo}}</p>
+
+            </div>
+        </div>
+    {%endfor%}
+</div>
+{%endblock%}
