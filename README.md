@@ -46,3 +46,9 @@
 — segunda opção: seleciona um arquivo Excel contendo as moedas para fazer a busca. Seleciona a data inicial e final, sendo depois realizada uma consulta na APi e com os dados retornado convertido em um arquivo Excel com cada coluna referente a uma moeda.
 
 
+### Site com Flask
+- cada página do site tem o seu modelo HTML;
+— funcionalidade de criar usuário, fazer login e editar perfil;
+- criação de Post, sendo que os posts aparecerão ordenado do mais recente para o mais antigo na página inicial;
+— o criador do post pode editar ou deletar o seu post;
+— opção de mostrar todos os usuários cadastrados, juntamente com a quantidade de post e cursos de cada um.
