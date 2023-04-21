@@ -2,7 +2,7 @@
  
 ### Automação Web
 
-- ler uma base com dois produtos e a partir disso, realizar a busca em dois sites (Google shopping e bucape);
+- Ler uma base com dois produtos e a partir disso, realizar a busca em dois sites (Google shopping e bucape);
 - a busca realizada respeitou o valor mínimo e máximo definidos, bem como, as palavras banidas para excluir produtos que diferem da busca planejada;
 - salvando o resultado de cada busca dos produtos em um arquivo Excel com o respectivo nome do produto, organizando os dados do menor para o maior valor;
 - após isso, mandou um e-mail com os dois arquivos Excel como anexo.
