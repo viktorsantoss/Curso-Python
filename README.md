@@ -2,7 +2,7 @@
  
 ### Automação Web
 
-- ler uma base com dois produtos e a partir disso, realizar a busca em dois sites (Google shopping e bucape);
+- Ler uma base com dois produtos e a partir disso, realizar a busca em dois sites (Google shopping e bucape);
 - a busca realizada respeitou o valor mínimo e máximo definidos, bem como, as palavras banidas para excluir produtos que diferem da busca planejada;
 - salvando o resultado de cada busca dos produtos em um arquivo Excel com o respectivo nome do produto, organizando os dados do menor para o maior valor;
 - após isso, mandou um e-mail com os dois arquivos Excel como anexo.
@@ -38,9 +38,11 @@
 - comando CRUD no banco de dados através dos botões da janela consumir, visualizar, adicionar e deletar insumos.
 
 
-### projeto de cotação de moedas
+### Projeto de cotação de moedas
 - Criação de interface gráfica através do tkinter;
 — conexão com awesome API (api de moedas) através da biblioteca request;
 - duas opções de busca de moedas na tela;
 — primeira opção: seleciona a moeda disponível da API através da lista suspensa, bem como a data para fazer a busca da moeda;
 — segunda opção: seleciona um arquivo Excel contendo as moedas para fazer a busca. Seleciona a data inicial e final, sendo depois realizada uma consulta na APi e com os dados retornado convertido em um arquivo Excel com cada coluna referente a uma moeda.
+
+
